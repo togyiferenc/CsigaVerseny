@@ -10,7 +10,6 @@ class Csiga:
         self.megtett_tav = 0
 
     def haladas(self):
-        # Generálunk egy véletlenszerű sebességet 0 és 3 között
         self.sebesseg = random.randint(0, 3)
 
         if self.gyorsito:
